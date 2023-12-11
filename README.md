@@ -164,6 +164,12 @@ rendering on several established datasets.
 ## Dynamics and Deformation:
 ### 1. Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis  🍰
 **Authors**: Jonathon Luiten, Georgios Kopanas, Bastian Leibe, Deva Ramanan
+<details>
+  <summary><b>Yutong's notes</b></summary>
+  <ul>
+    <li>Three regularization losses to model physically moving scenes: short-term local-rigidity, local-rotation similarity, a long-term isometry</li>
+  </ul>
+</details>
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -190,7 +196,7 @@ scene synthesis, and 4D video editing.
 
   [📄 Paper](https://dynamic3dgaussians.github.io/paper.pdf) | [🌐 Project Page](https://dynamic3dgaussians.github.io/) | [💻 Code](https://github.com/JonathonLuiten/Dynamic3DGaussians) | [🎥 Explanation Video](https://www.youtube.com/live/hDuy1TgD8I4?si=6oGN0IYnPRxOibpg)
 
-### 2. Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction  ☑️ (2=3, Deformation-field)
+### 2. Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction  ☑️ (2=3, Deformation-Neuralfield)
 **Authors**: Ziyi Yang, Xinyu Gao, Wen Zhou, Shaohui Jiao, Yuqing Zhang, Xiaogang Jin 
 
 <details span>
@@ -200,7 +206,7 @@ Implicit neural representation has opened up new avenues for dynamic scene recon
 
   [📄 Paper](https://arxiv.org/pdf/2309.13101.pdf) | [🌐 Project Page](https://ingra14m.github.io/Deformable-Gaussians/) | [💻 Code](https://github.com/ingra14m/Deformable-3D-Gaussians) 
 
-### 3. 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering ☑️ (3=2, Deformation-field)
+### 3. 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering ☑️ (3=2, Deformation-Neuralfield)
 **Authors**: Guanjun Wu, Taoran Yi, Jiemin Fang, Lingxi Xie, Xiaopeng Zhang, Wei Wei, Wenyu Liu, Tian Qi, Xinggang Wang
 <details>
   <summary><b>Yutong's notes</b></summary>
